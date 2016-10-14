@@ -1,0 +1,169 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+img {
+	width: auto;
+	margin: 0;
+}
+
+.nav {
+
+	text-align: right;
+	padding-top: 1.5em;
+	margin-bottom: 2em;
+
+}
+
+.nav a {
+	margin-right: 1.5em;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding: 1.5em;
+
+}
+
+.navigation-holder {
+	display: none;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.logo {
+  margin: 0.7em;
+	width: 4em;
+}
+
+ul {
+	margin: 0;
+}
+
+header {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+
+	background-color: #DCDCDC;
+}
+
+.image-grid {
+	margin: 10em;
+}
+
+.toggle-button {
+	background: url("../images/toggle.svg") no-repeat;
+	background-size: 80%;
+	height: 3.5em;
+	width: 3.5em;
+	position: absolute;
+  top: 1em;
+	text-align: right;
+}
+
+.toggle-nav {
+	display: none;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.toggle-nav li {
+	list-style-type: none;
+	padding-top: .5em;
+	padding-left: 1em;
+}
+
+.toggle-nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.toggle-nav-open {
+	display: block;
+
+}
+
+.back {
+	background: url("../images/mary.jpg") center top / cover no-repeat;
+	padding-top: 90%;
+	position: relative;
+}
+
+.img-flex {
+  
+}
+
+main {
+  display: inline-block;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+	.toggle-button {
+		left: 92%;
+	}
+
+}
+
+@media only screen and (min-width: 38em) {
+
+	.toggle-button {
+		left: 93%;
+	}
+
+
+}
+
+@media only screen and (min-width: 50em) {
+	.navigation-holder {
+		display: block;
+	}
+
+	.toggle-button {
+		display: none;
+	}
+	.toggle-nav {
+		display: none;
+	}
+	.logo{
+
+	float: left;
+}
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+
+@media only screen and (min-width: 70em) {
+
+
+}
