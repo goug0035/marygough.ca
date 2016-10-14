@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
 }
 
 *, *::before, *::after {
@@ -31,11 +30,9 @@ img {
 }
 
 .nav {
-
 	text-align: right;
 	padding-top: 1.5em;
 	margin-bottom: 2em;
-
 }
 
 .nav a {
@@ -53,6 +50,59 @@ img {
 
 .nav li {
 	display: inline-block;
+}
+
+.nav-check:checked ~ .toggle-nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #ccc;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+
+.toggle-nav {
+  display: none;
+}
+
+.toggle-nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000;
 }
 
 .logo {
@@ -76,46 +126,11 @@ header {
 	margin: 10em;
 }
 
-.toggle-button {
-	background: url("../images/toggle.svg") no-repeat;
-	background-size: 80%;
-	height: 3.5em;
-	width: 3.5em;
-	position: absolute;
-  top: 1em;
-	text-align: right;
-}
-
-.toggle-nav {
-	display: none;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
-.toggle-nav li {
-	list-style-type: none;
-	padding-top: .5em;
-	padding-left: 1em;
-}
-
-.toggle-nav a {
-	text-decoration: none;
-	color: black;
-}
-
-.toggle-nav-open {
-	display: block;
-
-}
-
 .back {
 	background: url("../images/mary.jpg") center top / cover no-repeat;
 	padding-top: 90%;
 	position: relative;
 }
-
-
-
 
 
 @media only screen and (min-width: 25em) {
