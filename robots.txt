@@ -1,0 +1,3 @@
+Sitemap: https://marygough.ca/sitemap.xml
+
+User-agent: *

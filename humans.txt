@@ -1,0 +1,18 @@
+/* TEAM */
+
+Your title: Mary Gough
+Email: hey@marygough.ca
+Site: https://marygough.ca
+Location: Ottawa, Canada.
+
+
+/* THANKS */
+
+github yay
+
+
+/* SITE */
+
+Last update: 2016/10/30
+Standards: HTML5, CSS3
+Components: jQuery

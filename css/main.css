@@ -12,6 +12,26 @@ html {
   text-size-adjust: 100%;
 }
 
+
+.embed {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+}
+
+.embed-16by9 {
+  padding-top: 56.25%;
+}
+
+.embed-item {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -93,6 +113,9 @@ img {
   display: block;
 }
 
+.contact {
+  background-color: #ccc;
+}
 
 .toggle-nav {
   display: none;

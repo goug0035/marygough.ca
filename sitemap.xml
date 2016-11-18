@@ -1,0 +1,32 @@
+<? version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemap.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>http://marygough.ca/</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2016-10-30</lastmod>
+  </url>
+
+  <url>
+    <loc>http://marygough.ca/design.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2016-10-30</lastmod>
+  </url>
+
+  <url>
+    <loc>http://marygough.ca/contact.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2016-10-30</lastmod>
+  </url>
+
+  <url>
+    <loc>http://marygough.ca/about.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2016-10-30</lastmod>
+  </url>
+
+</urlset>
