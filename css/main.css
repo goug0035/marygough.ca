@@ -12,6 +12,15 @@ html {
   text-size-adjust: 100%;
 }
 
+button {
+  text-decoration: none;
+  color: #DCDCDC;
+}
+
+.title {
+  position: absolute;
+  z-index: 2;
+}
 
 .embed {
   margin-left: 0;
